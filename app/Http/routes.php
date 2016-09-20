@@ -12,5 +12,5 @@
 */
 
 $app->get('/', function () use ($app) {
-    return DB::select("show tables");
+    return view('hello');
 });
